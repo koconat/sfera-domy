@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Сфера дому</title>
+  <meta name="description" content="Проста заготовка HTML з 5 блоками для швидкого старту" />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- BLOCK 1: Header / Navigation -->
+  <header>
+    <div class="container nav">
+      <div class="brand">СФЕРА ДОМУ</div>
+      <nav>
+        <ul>
+          <li><a href="#hero">Головна</a></li>
+          <li><a href="#services">Будинки</a></li>
+          <li><a href="#faq">Питання</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- BLOCK 2: Hero / Заголовок -->
+    <section id="hero" class="hero">
+      <div>
+        <h1>Управління та обслуговування багатоквартирних будинків</h1>
+        <p class="muted">Залиште заявку — і ми підготуємо пропозицію саме для вашого об’єкта.</p>
+        <a class="btn" href="#contact">Замовити</a>
+      </div>
+      <aside>
+        <div class="placeholder"> <img src="verb.png" class="house-photo" /></div>
+      </aside>
+    </section>
+
+    <!-- BLOCK 3: Services / 3 колонки -->
+    <section id="services" class="features">
+      <div class="container">
+        <h2>Наші будинки</h2>
+        <div class="grid" style="margin-top:16px">
+          <article class="card">
+            <img src="img/photo verb7a.jpg" alt="Вербицького 7а" class="house-photo" />
+            <h3>Вербицького, 7а</h3>
+            <ul class="docs-list">
+                <li><a href="#" class="show-payment" data-payment-id="1">Реквізити для оплати</a></li>               
+                <li><a href="pdf/dogovir verb7a.pdf" target="_blank">Публічний договір</a></li>
+                <li><a href="pdf/inform verb7a.pdf" target="_blank">Загальні відомості про будинок</a></li>
+                <li><a href="pdf/taruf verb7a.pdf" target="_blank">Кошторис 2025</a></li>
+            </ul>
+          </article>
+          <article class="card">
+            <img src="img/photo shput22.jpg" alt="Шпитальна 22" class="house-photo" />
+            <h3>Шпитальна, 22</h3>
+            <ul class="docs-list">
+                <li><a href="#" class="show-payment" data-payment-id="2">Реквізити для оплати</a></li>
+                <li><a href="pdf/dogovir shput22.pdf" target="_blank">Публічний договір</a></li>
+                <li><a href="pdf/inform shput22.pdf" target="_blank">Загальні відомості про будинок</a></li>
+                <li><a href="pdf/taruf shput22.pdf" target="_blank">Кошторис 2025</a></li>
+            </ul>
+          </article>
+          <article class="card">
+            <img src="img/photo petr6 2.jpg" alt="Петриківська 6" class="house-photo" />
+            <h3>Петриківська, 6</h3>
+            <ul class="docs-list">
+                <li><a href="#" class="show-payment" data-payment-id="3">Реквізити для оплати</a></li>
+                <li><a href="pdf/dogovir petr6.pdf" target="_blank">Публічний договір</a></li>
+                <li><a href="pdf/inform petr6.pdf" target="_blank">Загальні відомості про будинок</a></li>
+                <li><a href="pdf/taruf petr6.pdf" target="_blank">Кошторис 2025</a></li>
+            </ul>
+          </article>
+          <article class="card">
+            <img src="img/photo ostr36.jpg" alt="Острозького 36" class="house-photo" />
+            <h3>Острозького, 36</h3>
+            <ul class="docs-list">
+                <li><a href="#" class="show-payment" data-payment-id="4">Реквізити для оплати</a></li>
+                <li><a href="pdf/dogovir ostr36.pdf" target="_blank">Публічний договір</a></li>
+                <li><a href="pdf/inform ostr36.pdf" target="_blank">Загальні відомості про будинок</a></li>
+                <li><a href="pdf/taruf ostr36.pdf" target="_blank">Кошторис 2025</a></li>
+            </ul>
+          </article>
+          <article class="card">
+            <img src="img/photo bilog13.jpg" alt="Білогірська, 13" class="house-photo" />
+            <h3>Білогірська, 13</h3>
+            <ul class="docs-list">
+                <li><a href="#" class="show-payment" data-payment-id="5">Реквізити для оплати</a></li>
+                <li><a href="pdf/dogovir bilog13.pdf" target="_blank">Публічний договір</a></li>
+                <li><a href="pdf/inform bilog13.pdf" target="_blank">Загальні відомості про будинок</a></li>
+                <li><a href="pdf/taruf bilog13.pdf" target="_blank">Кошторис 2025</a></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOCK 4: Portfolio / Content -->
+    <section id="faq" class="faq">
+  <h2>Часті запитання</h2>
+
+  <details class="faq-item">
+    <summary>Як відбувається укладення договору на управління будинком?</summary>
+    <p>
+      Ми готуємо пропозицію, проводимо зустріч з ініціативною групою, після чого збори співвласників приймають рішення та уповноважують укласти договір.
+    </p>
+  </details>
+
+  <details class="faq-item">
+    <summary>Що входить у щомісячну плату за управління?</summary>
+    <p>
+      Прибирання, технічне обслуговування, аварійні виїзди, утримання інженерних мереж, адміністрування, бухгалтерський супровід та інші послуги відповідно до договору.
+    </p>
+  </details>
+
+  <details class="faq-item">
+    <summary>Як подати заявку на ремонт чи іншу послугу?</summary>
+    <p>
+      Ви можете подати заявку телефоном, електронною поштою або через канал комунікації, вказаний у договорі. Ми реагуємо оперативно.
+    </p>
+  </details>
+
+  <details class="faq-item">
+    <summary>Чому нарахування проводяться незалежно від факту проживання?</summary>
+    <p>
+      Нарахування здійснюються на підставі права власності на приміщення, а не проживання. Це визначено законодавством України.
+    </p>
+  </details>
+
+  <details class="faq-item">
+    <summary>Чи можуть співвласники створити ОСББ?</summary>
+    <p>
+      Так, співвласники мають право створити ОСББ у будь-який момент. Після реєстрації ми передаємо будинок новому управителю.
+    </p>
+  </details>
+</section>
+
+    <!-- BLOCK 5: Contact / CTA -->
+    <section id="contact" class="contact">
+  <h2>Контакти</h2>
+  <p class="muted">Ми завжди на зв’язку. Телефонуйте або пишіть у зручний для вас спосіб.</p>
+
+  <div class="contact-list">
+    <div class="contact-item">
+      <strong>Поштова адреса:</strong>
+      <span>м. Тернопіль, вул. Збаразька 29а, офіс VII</span>
+    </div>
+
+    <div class="contact-item">
+      <strong>Телефон:</strong>
+      <a href="tel:+380XXXXXXXXX">+38 (097) 197-98-55</a>
+    </div>
+
+    <div class="contact-item">
+      <strong>Viber:</strong>
+      <a href="viber://chat?number=%2B380XXXXXXXXX">+38 (067) 685-72-91</a>
+    </div>
+
+    <div class="contact-item">
+      <strong>Email:</strong>
+      <a href="mailto:example@gmail.com">kovtun.yurii2408@gmail.com</a>
+    </div>
+  </div>
+</section>
+
+    <footer>
+      <div class="container">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+          <div>© 2025 Сфера дому — Усі права захищені</div>
+          <div class="muted">м. Тернопіль, вул.Крушельницької 18/211 • 097 197 9855 </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+<!-- Попап для реквізитів -->
+<div id="paymentPopup" class="payment-popup" aria-hidden="true">
+  <div class="payment-popup__box">
+    <button class="payment-popup__close">✕</button>
+    <h3>Реквізити для оплати</h3>
+    <div class="payment-popup__body">
+      <p id="paymentPopupText"></p>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
