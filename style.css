@@ -51,6 +51,13 @@
         border-radius: 10px;  /* щоб виглядало як інші елементи */
         margin-bottom: 12px; 
     }
+      .house-photo-main{
+        height: 180px;
+        width: 100%;        /* будь-яка висота, яку хочеш */
+        object-fit: cover;    /* обрізає фото під потрібний розмір красиво */
+        border-radius: 10px;  /* щоб виглядало як інші елементи */
+        margin-bottom: 12px; 
+    }
     /* Загальний відступ секції */
 .faq {
   padding: 48px 0;
@@ -192,4 +199,5 @@
     @media (max-width:560px){
       .grid{grid-template-columns:1fr}
       .contact form{grid-template-columns:1fr}
+
     }
