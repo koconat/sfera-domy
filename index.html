@@ -3,10 +3,40 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Сфера дому</title>
-  <meta name="description" content="Проста заготовка HTML з 5 блоками для швидкого старту" />
+  <!-- Title — найважливіше -->
+  <title>Сфера Дому Тернопіль – Управління будинками, послуги управителя</title>
+
+  <!-- Description — показується у Google під заголовком -->
+  <meta name="description" content="Сфера Дому Тернопіль – управління багатоквартирними будинками, обслуговування будинків, інформація для мешканців, тарифи, реквізити, новини." />
+
+  <!-- Keywords — Google їх майже не використовує, але можна додати -->
+  <meta name="keywords" content="Сфера Дому, Сфера Дому Тернопіль, управитель Тернопіль, управління будинком, ОСББ, обслуговування будинку" />
+
+  <!-- Щоб Google знав, що це саме офіційна сторінка -->
+  <meta name="author" content="ТОВ Сфера Дому">
+
+  <!-- Open Graph — для соцмереж і кращого вигляду посилань -->
+  <meta property="og:title" content="Сфера Дому Тернопіль – Офіційний сайт" />
+  <meta property="og:description" content="Інформація для мешканців: послуги, тарифи, новини, контакти управителя." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://твій-домен.com" />
+  <meta property="og:image" content="https://твій-домен.com/preview.jpg" />
   <link rel="stylesheet" href="style3.css">
 
+  <!-- Обов'язково потрібно для пошуку-->
+   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Сфера Дому Тернопіль",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Тернопіль",
+    "addressCountry": "UA"
+  },
+  "telephone": "+380971979855"
+}
+</script>
 </head>
 <body>
   <!-- BLOCK 1: Header / Navigation -->
@@ -28,7 +58,7 @@
     <!-- BLOCK 2: Hero / Заголовок -->
     <section id="hero" class="hero">
       <div>
-        <h1>Управління та обслуговування багатоквартирних будинків</h1>
+        <h1>Управління та обслуговування багатоквартирних будинків у Тернополі</h1>
         <p class="muted">Залиште заявку — і ми підготуємо пропозицію саме для вашого об’єкта.</p>
         <a class="btn" href="#contact">Замовити</a>
       </div>
@@ -138,7 +168,7 @@
 
     <!-- BLOCK 5: Contact / CTA -->
     <section id="contact" class="contact">
-  <h2>Контакти</h2>
+  <h2>Контакти ТОВ «Сфера Дому»</h2>
   <p class="muted">Ми завжди на зв’язку. Телефонуйте або пишіть у зручний для вас спосіб.</p>
 
   <div class="contact-list">
@@ -167,8 +197,8 @@
     <footer>
       <div class="container">
         <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
-          <div>© 2025 Сфера дому — Усі права захищені</div>
-          <div class="muted">м. Тернопіль, вул.Крушельницької 18/211 • 097 197 9855 </div>
+          <div>© 2025 ТОВ «Сфера Дому» — Тернопіль</div>
+          <div class="muted">вул.Крушельницької 18/211 • 097 197 9855 </div>
         </div>
       </div>
     </footer>
@@ -189,5 +219,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-
-
