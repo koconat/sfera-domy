@@ -21,6 +21,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://sferadomu.com.ua" />
   <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="burger menu.css">
 
   <!-- Обов'язково потрібно для пошуку-->
    <script type="application/ld+json">
@@ -43,7 +44,7 @@
   <header>
     <div class="container nav">
       <div class="brand">СФЕРА ДОМУ</div>
-      <nav>
+      <nav id="mainNav">
         <ul>
           <li><a href="#hero">Головна</a></li>
           <li><a href="#services">Будинки</a></li>
@@ -51,6 +52,12 @@
           <li><a href="#contact">Контакти</a></li>
         </ul>
       </nav>
+      <!--Бургер меню-->
+      <button class="burger" aria-label="Відкрити меню" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </header>
 
@@ -214,11 +221,11 @@
   </div>
 </div>
 
-
-
 <script src="script.js"></script>
+<script src="burger menu.js"></script>
 </body>
 </html>
+
 
 
 
